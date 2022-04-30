@@ -1,0 +1,47 @@
+body {
+    animation-name: bgcol;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes bgcol {
+    0%   {background-color: rgb(80, 172, 214); }
+    50% {background-color:rgb(71, 116, 184);}
+    100% {background-color:rgb(80, 172, 214);}
+  }
+h2{
+    padding: 15px;
+    padding-top: 40px;
+    color: antiquewhite;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.box{
+    background-color: rgb(48, 43, 37);
+    opacity: 60%;
+    border: 1px solid;
+    margin: 400px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 30px;
+    box-shadow: grey;
+    border-radius: 5px;
+}
+form{
+    opacity: 100%;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+button{
+    background-color: rgb(153, 223, 50);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: antiquewhite 1px solid;
+    border-radius: 6px;
+}
+img{
+    width: 100px;
+}

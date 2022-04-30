@@ -1,0 +1,346 @@
+body {
+    /*border-style: double;
+    border-color: rgb(88, 26, 26);
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);*/
+    background-color: #f5eae5;
+    align-content: center;
+    overflow-y: scroll;
+    
+}
+p1 {
+    color:#123c69;
+    font-family: monospace;
+    font-size:40px; 
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+p {
+    /*color: #123c69;*/
+    color: #000000c5;
+    font-size:20px;
+    font-family: Gill Sans, sans-serif;
+}
+nav{
+    margin-top: 0px;
+    display: flex;
+}
+.bar .rbar > a:hover {
+    opacity:0.8;
+    color:#000000;
+  }
+.lbar{
+    padding: 10px;
+    font-family: Gill Sans, sans-serif;
+    padding-bottom: 0px;
+    padding-right: 750px;
+    padding-top: 0px;  
+    text-align:start;
+}
+.rbar{
+   padding-bottom: 0px;
+   padding-right: 5px;
+   padding-top: 0px;  
+   text-align:right; 
+   flex: auto;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #ac3861; 
+    font-family: Gill Sans, sans-serif;
+}
+hr.new1{
+    border: 0.1px solid #123c69;
+    padding-top: 0cm;
+    padding-bottom: 0px;
+  }
+p.text{
+    padding: 30px;
+    padding-top: 0px;
+    text-align: justify;
+    font-size: 15px;
+}
+  /**/
+  .column {
+    float: left;
+    padding: 10px;
+    height: 440px;
+   
+  }
+  .left {
+    flex: 20%;
+    width: 55%;
+    border: 1pt solid #edc7b7;
+    margin-right: 70px;
+    /*background-color: rgb(166, 227, 230);
+    background-color: #a7c7e7;*/
+    background-color: #bab2b5;
+    opacity: 90%;
+    border-radius: 10px;
+  }
+  .right {
+    flex: 50%;
+    width:30%;
+    /*border-left: 1px solid  rgb(88, 26, 26);margin-top: 30px;
+    background-color: #add8e6;*/
+    border: 1pt solid #edc7b7;
+    background-color: #bab2b5;
+    
+    opacity: 90%;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 1000px) {
+    .left, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+p.section{
+    font-size: 15px;
+    line-height:1.3em;
+}
+.img1{
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-top: 15px;
+}  
+.head{
+    /*color: rgb(88, 26, 26);*/
+    color: #123c69;
+    font-size:20px;
+    font-family: Gill Sans, sans-serif;
+    padding-top: 0px;
+}
+.row{
+    margin: 90px;
+    margin-top: 50px;
+}
+.not{
+    margin: 50px;
+    border: 1px solid #f5eae5;
+    background-color: #add8e6;
+    /*background-color: #f0d5c8;*/
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.not:hover {
+  transform: scale(1.1); 
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#f0d5c8;
+    color:#ac3b61;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+    
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:0px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:25px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+ .links{
+    color:#ac3b61;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:0;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+ 
+.gallery {
+    border: 1pt solid #edc7b7;
+    background-color: #bab2b5;
+    opacity: 90%;
+    border-radius: 10px;
+    margin: 110px;
+    margin-top: 460px;
+    margin-bottom: 60px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 30px;  
+    width: auto;  
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing:1px;
+  padding-top: 30px;
+}
+
+.media:hover .layer {
+  opacity: 0.8;
+  width: 90%;
+  transition: all 0.5s ease;
+  
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .left, .right {
+    width: 90%;
+  }
+}
+
+.col {
+  flex: 33.33%;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  width: auto;
+  margin:30px;
+  margin-top: 0px;
+  border: 1pt solid #edc7b7;
+  background-color: #bab2b5;
+  opacity: 90%;
+  border-radius: 10px;
+}
+.row2 {
+   display: flex;
+   margin-left: 80px;
+   margin-right: 80px;
+   margin-bottom: 20px;
+}	
+.col:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+span{
+  padding: 10px;
+    text-decoration: none;
+    color: #ac3861; 
+    font-family: Gill Sans, sans-serif;
+}
